@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="myChart"></canvas>
+<div>
+  <input id="data" type="number" placeholder="Data">
+  <input id="label" type="text" placeholder="Data's Label">
+
+  <button onclick="addData(myChart)">Add Data</button>
+  <button onclick="removeData(myChart)">Remove Data</button>
+  <button onclick="saveCanvas()">Save Chart</button>
+</div>
+<script src="script.js"></script>
+</body>
